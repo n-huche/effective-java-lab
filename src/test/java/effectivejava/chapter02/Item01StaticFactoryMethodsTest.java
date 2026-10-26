@@ -9,5 +9,12 @@ class Item01StaticFactoryMethodsTest {
 
     @Test
     void experiment() {
+        assertSame(false, valueOf(false));
     }
+
+    public static Boolean valueOf(boolean b) {
+        return b ? Boolean.TRUE : Boolean.FALSE;
+    }
+
 }
+ 

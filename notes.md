@@ -1,0 +1,1 @@
+Item 1: Pode-se usar static methods (factories) para criar objetos ou retornar static objects já existentes.
